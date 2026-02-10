@@ -8,6 +8,4 @@ class circle{
     double area(){
         return 3.14*r*r;
     }
-
-
 }
