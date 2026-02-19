@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class prime{
     public static void main(String args[]) {
         int num;
@@ -13,6 +14,5 @@ class prime{
         }
         if(isprime) System.out.println("prime");
         else System.out.println("not prime");
-        
     }
 }
