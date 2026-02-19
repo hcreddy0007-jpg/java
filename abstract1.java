@@ -8,7 +8,8 @@ class Derived extends base{
 }
 
 
-class abstract1{
+@SuppressWarnings("unused")
+class abstract1 {
     public static void main(String[] args) {
         base b = new Derived();
         b.fun();
